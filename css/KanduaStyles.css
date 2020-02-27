@@ -1,0 +1,2787 @@
+*{
+  overflow-x: hidden;
+  margin: 0;
+}
+
+body {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 14px; 
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2 {
+  color: #4c95fc;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+button {
+  
+  font-size: 18px;
+}
+
+#swoosh {
+  text-align: right;
+}
+
+/* got this from w3schools */
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  left: 250px;
+  bottom: -25px;
+  
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 2px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+#about, #facebook , #instagram, #linkedin {
+    display: none;
+}
+
+#logo {
+    width: 35px;
+    height: 45px;
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+
+.kan h1 , a {
+  color: #4c95fc;
+}
+
+.kan h1 {
+  font-size: 38px;
+  font-weight: 500;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+}
+
+.kan p {
+  font-size: 16px;
+}
+
+.kan h1 , p {
+    padding: 0 25px;
+}
+
+.bluey {
+  background-color: #4c95fc;
+  color: white;
+  width: 100vw;
+  text-align: center;
+  padding: 15px 0;
+}
+
+#numbOne , #numbTwo , #numbThree {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+#passOne , #passTwo , #passThree {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.customers {
+  padding: 0 20px;
+}
+
+#Thembi img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+}
+
+#Thembi p{
+  position: relative;
+  left: 90px;
+  bottom: 100px;
+  margin-right: 65px;
+  font-size: 16px;
+}
+
+#Paulo {
+  position: relative;
+  bottom: 70px;
+}
+
+#Paulo img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+}
+
+#Paulo p{
+  position: relative;
+  left: 90px;
+  bottom: 100px;
+  margin-right: 65px;
+  font-size: 16px;
+}
+
+#Janine {
+  position: relative;
+  bottom: 150px;
+}
+
+#Janine img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+}
+
+#Janine p{
+  position: relative;
+  left: 90px;
+  bottom: 100px;
+  margin-right: 65px;
+  font-size: 16px;
+}
+
+.customers button {
+  background-color: #4c95fc;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 60px;
+  position: relative;
+  bottom: 165px;
+  left: 80px;
+
+}
+
+.customers button p {
+  position: relative;
+  text-align: center;
+  top: 7px;
+}
+
+.pros {
+  padding: 0 20px;
+  position: relative;
+  bottom: 120px;
+}
+
+#Dylan img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+}
+
+#Dylan p{
+  position: relative;
+  left: 90px;
+  bottom: 108px;
+  margin-right: 65px;
+  font-size: 16px;
+}
+
+#Mohammed {
+  position: relative;
+  bottom: 40px;
+}
+
+#Mohammed img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 10px;
+
+}
+
+#mohammed p{
+  position: relative;
+  left: 90px;
+  bottom: 102px;
+  margin-right: 65px;
+  font-size: 16px;
+}
+
+#Joe {
+  position: relative;
+  bottom: 80px;
+}
+
+#Joe img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 5px;
+}
+
+#Joe p{
+  position: relative;
+  left: 90px;
+  bottom: 105px;
+  margin-right: 80px;
+  font-size: 16px;
+}
+
+.pros button {
+  background-color: #4c95fc;
+  color: white;
+  border: none;
+  width: 150px;
+  height: 60px;
+  position: relative;
+  bottom: 120px;
+  left: 80px;
+
+}
+
+.pros button p {
+  position: relative;
+  text-align: center;
+  top: 7px;
+}
+
+.partners {
+  padding: 0 20px;
+  position: relative;
+  bottom: 150px;
+}
+
+#ygap img {
+  width: 90px;
+  height: 45px;
+}
+
+#ygap p {
+  position: relative;
+  left: 80px;
+  bottom: 50px;
+  margin-right: 80px;
+  font-size: 16px;
+}
+
+#Merlin img {
+  width: 85px;
+  height: 60px;
+}
+
+#Merlin p {
+  position: relative;
+  left: 80px;
+  bottom: 70px;
+  margin-right: 80px;
+  font-size: 16px;
+}
+
+.partners button {
+  background-color: #4c95fc;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 60px;
+  position: relative;
+  bottom: 30px;
+  left: 80px;
+
+}
+
+.partners button p {
+  position: relative;
+  text-align: center;
+  top: 7px;
+}
+
+.team {
+  padding: 0 20px;
+  position: relative;
+  bottom: 150px;
+}
+
+#Rosey img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#Rosey p {
+  position: relative;
+  left: 90px;
+  bottom: 105px;
+  margin-right: 65px;
+  font-size: 16px;
+}
+
+#Micheal {
+  position: relative;
+  bottom: 45px;
+}
+
+#Micheal img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#Micheal p {
+  position: relative;
+  left: 90px;
+  bottom: 106px;
+  margin-right: 65px;
+  font-size: 16px;
+}
+
+#Royzanne {
+  position: relative;
+  bottom: 85px;
+}
+
+#Royzanne img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+#Royzanne p {
+  position: relative;
+  left: 90px;
+  bottom: 108px;
+  margin-right: 65px;
+  font-size: 16px;
+}
+
+.team button {
+  background-color: #4c95fc;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 60px;
+  position: relative;
+  bottom: 140px;
+  left: 80px;
+
+}
+
+.team button p {
+  position: relative;
+  text-align: center;
+  top: 7px;
+}
+
+.founders {
+  padding: 0 20px;
+  position: relative;
+  bottom: 140px;
+
+}
+
+.founders h2 {
+  text-align: center;
+}
+
+#ArjunImg {
+  width: 270px;
+  height: 150px;
+  position: relative;
+  left: 25px;
+}
+
+#findA, #findS {
+  color: #4c95fc;
+  text-align: center;
+  font-size: 22px;
+}
+
+.founders p {
+  text-align: center;
+  font-size: 16px;
+}
+
+#SayoImg {
+  width: 285px;
+  height: 150px;
+  position: relative;
+  left: 25px;
+}
+
+.founders button {
+  background-color: #4c95fc;
+  color: white;
+  border: none;
+  width: 180px;
+  height: 60px;
+  position: relative;
+  left: 80px;
+}
+
+.founders button p {
+  position: relative;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+
+.stroke {
+  position: relative;
+  bottom: 100px;
+}
+
+#go {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  font-size: 20px;
+}
+
+#arrow {
+  position: relative;
+  top: 5px;
+}
+
+.show {
+  display: none;
+  width: 100vw;
+  height: 80vh;
+}
+
+.show p {
+  text-align: center ;
+  font-size: 30px;
+  position: relative;
+  top: 140px;
+}
+
+#linked, #insta , #faceb {
+  display: inline;
+  position: relative;
+  top: 385px;
+}
+
+#linked {
+  position: relative;
+  left: 170px;
+}
+
+#faceb {
+  position: relative;
+  left: 175px;
+}
+
+#insta {
+  position: relative;
+  left: 107px;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 640px) {
+
+  *{
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 14px; 
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h2 {
+    color: #4c95fc;
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  #swoosh {
+    text-align: right;
+  }
+  
+  button {
+    
+    font-size: 18px;
+  }
+  
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 500px;
+    bottom: -15px;
+    
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+  
+  #about, #facebook , #instagram, #linkedin {
+      display: none;
+  }
+  
+  #logo {
+      width: 35px;
+      height: 45px;
+      position: relative;
+      top: 30px;
+      left: 30px;
+  }
+  
+  .kan h1 , a {
+    color: #4c95fc;
+  }
+  
+  .kan h1 {
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+  }
+  
+  .kan p {
+    font-size: 18px;
+  }
+  
+  .kan h1 , p {
+      padding: 0 25px;
+  }
+  
+  .bluey {
+    background-color: #4c95fc;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    padding: 15px 0;
+  }
+  
+  #numbOne , #numbTwo , #numbThree {
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  #passOne , #passTwo , #passThree {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  
+  .customers {
+    padding: 0 20px;
+  }
+  
+  #Thembi img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  
+  }
+  
+  #Thembi p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  #Paulo {
+    position: relative;
+    bottom: 70px;
+  }
+  
+  #Paulo img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    top: 20px;
+  
+  }
+  
+  #Paulo p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  #Janine {
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #Janine img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+    top: 12px;
+  
+  }
+  
+  #Janine p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .customers button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    bottom: 165px;
+    left: 215px;
+  
+  }
+  
+  .customers button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .pros {
+    padding: 0 20px;
+    position: relative;
+    bottom: 120px;
+  }
+  
+  #Dylan img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  
+  }
+  
+  #Dylan p{
+    position: relative;
+    left: 90px;
+    bottom: 117px;
+    margin-right: 65px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  #Mohammed {
+    position: relative;
+    bottom: 70px;
+  }
+  
+  #Mohammed img {
+    width: 113px;
+    height: 113px;
+    position: relative;
+    bottom: 5px;
+  
+  }
+  
+  #mohammed p{
+    position: relative;
+    left: 90px;
+    bottom: 110px;
+    margin-right: 65px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  #Joe {
+    position: relative;
+    bottom: 135px;
+  }
+
+  #Joe img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  
+  
+  #Joe p{
+    position: relative;
+    bottom: 112px;
+    margin-left: 10px;
+    
+    font-size: 18px;
+  }
+  
+  .pros button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    bottom: 120px;
+    left: 215px;
+  
+  }
+  
+  .pros button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .partners {
+    padding: 0 20px;
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #ygap img {
+    width: 90px;
+    height: 45px;
+  }
+  
+  #ygap p {
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+    margin-right: 80px;
+    font-size: 18px;
+  }
+  
+  #Merlin img {
+    width: 85px;
+    height: 60px;
+  }
+  
+  #Merlin p {
+    position: relative;
+    left: 80px;
+    bottom: 70px;
+    margin-right: 80px;
+    font-size: 18px;
+  }
+  
+  .partners button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 220px;
+    height: 60px;
+    position: relative;
+    bottom: 30px;
+    left: 190px;
+  
+  }
+  
+  .partners button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .team {
+    padding: 0 20px;
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #Rosey img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  
+  #Rosey p {
+    position: relative;
+    left: 90px;
+    bottom: 115px;
+    margin-right: 65px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  #Micheal {
+    position: relative;
+    bottom: 45px;
+  }
+  
+  #Micheal img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  
+  #Micheal p {
+    position: relative;
+    left: 90px;
+    bottom: 116px;
+    margin-right: 65px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  #Royzanne {
+    position: relative;
+    bottom: 85px;
+  }
+  
+  #Royzanne img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  
+  #Royzanne p {
+    position: relative;
+    left: 90px;
+    bottom: 118px;
+    margin-right: 65px;
+    margin-left: 10px;
+    font-size: 18px;
+  }
+  
+  .team button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 60px;
+    position: relative;
+    bottom: 100px;
+    left: 200px;
+  
+  }
+  
+  .team button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .founders {
+    padding: 0 20px;
+    position: relative;
+    bottom: 140px;
+  
+  }
+  
+  #ArjunImg {
+    width: 340px;
+    height: 180px;
+    position: relative;
+    left: 130px;
+  }
+  
+  #findA, #findS {
+    color: #4c95fc;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .founders p {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #SayoImg {
+    width: 330px;
+    height: 165px;
+    position: relative;
+    left: 135px;
+  }
+  
+  .founders button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 60px;
+    position: relative;
+    left: 215px;
+  }
+  
+  .founders button p {
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    
+  }
+  
+  .stroke {
+    position: relative;
+    bottom: 100px;
+  }
+  
+  #go {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-size: 20px;
+  }
+  
+  #arrow {
+    position: relative;
+    top: 3.5px;
+  }
+  
+  .show {
+    display: none;
+    width: 100vw;
+    height: 80vh;
+  }
+  
+  .show p {
+    text-align: center ;
+    font-size: 30px;
+    position: relative;
+    top: 140px;
+  }
+  
+  #linked, #insta , #faceb {
+    display: inline;
+    position: relative;
+    top: 385px;
+  }
+  
+  #linked {
+    position: relative;
+    left: 300px;
+  }
+  
+  #faceb {
+    position: relative;
+    left: 305px;
+  }
+  
+  #insta {
+    position: relative;
+    left: 237px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  *{
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 20px; 
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h2 {
+    color: #4c95fc;
+    font-size: 28px;
+    font-weight: 500;
+  }
+  
+  #swoosh {
+    text-align: right;
+  }
+
+  button {
+    
+    font-size: 18px;
+  }
+  
+  .container {
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    left: 650px;
+    bottom: -25px;
+    
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+  
+  /* Fade out the second bar */
+  .change .bar2 {
+    opacity: 0;
+  }
+  
+  /* Rotate last bar */
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  }
+  
+  #about, #facebook , #instagram, #linkedin {
+      display: none;
+  }
+  
+  #logo {
+      width: 35px;
+      height: 45px;
+      position: relative;
+      top: 30px;
+      left: 30px;
+  }
+  
+  .kan h1 , a {
+    color: #4c95fc;
+  }
+  
+  .kan h1 {
+    font-size: 46px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 1.2em;
+  }
+  
+  .kan p {
+    font-size: 20px;
+  }
+  
+  .kan h1 , p {
+      padding: 0 25px;
+  }
+  
+  .bluey {
+    background-color: #4c95fc;
+    color: white;
+    width: 100vw;
+    height: 30vh;
+    padding: 15px 0;
+    overflow-y: hidden;
+  }
+
+  #one {
+    position: relative;
+    right: 250px;
+  }
+
+  #numbOne {
+    margin-bottom: 30px;
+  }
+  
+
+  #two {
+    position: relative;
+    bottom: 120px;
+    left: 30px;
+    
+  }
+
+  #numbTwo {
+    width: 200;
+    position: relative;
+    left: 215px;
+    bottom: 7px;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+  }
+
+  #passTwo {
+    width: 200;
+    position: relative;
+    left: 215px;
+    bottom: 5px;
+    line-height: 1.8em;
+  }
+
+  #three {
+    position: relative;
+    bottom: 310px;
+    left: 210px;
+  }
+
+  #numbThree {
+    position: relative;
+    left: 15px;
+  }
+
+  #passThree {
+    width: 180;
+    position: relative;
+    left: 300px;
+    bottom: 7px;
+    line-height: 1.8em;
+    margin-top: 30px;
+  }
+  
+  #numbOne , #numbTwo , #numbThree {
+    font-size: 38px;
+    font-weight: 500;
+  }
+
+  #passOne , #passTwo , #passThree {
+    font-size: 17px;
+    font-weight: 200;
+  }
+  
+  .customers {
+    padding: 0 20px;
+    font-size: 18px;
+  }
+  
+  #Thembi img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  
+  }
+  
+  #Thembi p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+  }
+  
+  #Paulo {
+    position: relative;
+    bottom: 70px;
+  }
+  
+  #Paulo img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  
+  }
+  
+  #Paulo p{
+    position: relative;
+    left: 90px;
+    bottom: 90px;
+    margin-right: 65px;
+  }
+  
+  #Janine {
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #Janine img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  
+  }
+  
+  #Janine p{
+    position: relative;
+    left: 90px;
+    bottom: 90px;
+    margin-right: 65px;
+  }
+  
+  .customers button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    bottom: 165px;
+    left: 300px;
+  
+  }
+  
+  .customers button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .pros {
+    padding: 0 20px;
+    position: relative;
+    bottom: 150px;
+    font-size: 18px;
+  }
+  
+  #Dylan img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  
+  }
+  
+  #Dylan p{
+    position: relative;
+    left: 90px;
+    bottom: 110px;
+    margin-right: 65px;
+    
+  }
+  
+  #Mohammed {
+    position: relative;
+    bottom: 70px;
+  }
+  
+  #Mohammed img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  
+  }
+  
+  #mohammed p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+  }
+  
+  #Joe {
+    position: relative;
+    bottom: 150px;
+  }
+
+  #Joe img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  
+  
+  .pros button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 160px;
+    height: 60px;
+    position: relative;
+    bottom: 165px;
+    left: 300px;
+  
+  }
+  
+  .pros button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .partners {
+    padding: 0 20px;
+    position: relative;
+    bottom: 200px;
+    font-size: 18px;
+  }
+  
+  #ygap img {
+    width: 90px;
+    height: 45px;
+  }
+  
+  #ygap p {
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+    margin-right: 80px;
+  }
+  
+  #Merlin img {
+    width: 85px;
+    height: 60px;
+  }
+  
+  #Merlin p {
+    position: relative;
+    left: 80px;
+    bottom: 70px;
+    margin-right: 80px;
+  }
+  
+  .partners button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 190px;
+    height: 60px;
+    position: relative;
+    bottom: 10px;
+    left: 280px;
+  
+  }
+  
+  .partners button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .team {
+    padding: 0 20px;
+    position: relative;
+    bottom: 180px;
+    font-size: 18px;
+  }
+  
+  #Rosey img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  
+  #Rosey p {
+    position: relative;
+    left: 90px;
+    bottom: 105px;
+    margin-right: 65px;
+  }
+  
+  #Micheal {
+    position: relative;
+    bottom: 45px;
+  }
+  
+  #Micheal img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  
+  #Micheal p {
+    position: relative;
+    left: 90px;
+    bottom: 106px;
+    margin-right: 65px;
+  }
+  
+  #Royzanne {
+    position: relative;
+    bottom: 115px;
+  }
+  
+  #Royzanne img {
+    width: 110px;
+    height: 110px;
+    position: relative;
+  }
+  
+  #Royzanne p {
+    position: relative;
+    left: 90px;
+    bottom: 108px;
+    margin-right: 65px;
+  }
+  
+  .team button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 60px;
+    position: relative;
+    bottom: 140px;
+    left: 300px;
+  
+  }
+  
+  .team button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .founders {
+    padding: 0 20px;
+    position: relative;
+    bottom: 220px;
+    font-size: 18px;
+  }
+  
+  #ArjunImg {
+    width: 300px;
+    height: 180px;
+    position: relative;
+    left: 215px;
+  }
+  
+  #findA, #findS {
+    color: #4c95fc;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .founders p {
+    text-align: center;
+  }
+  
+  #SayoImg {
+    width: 315px;
+    height: 180px;
+    position: relative;
+    left: 210px;
+  }
+  
+  .founders button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 190px;
+    height: 60px;
+    position: relative;
+    left: 300px;
+  }
+  
+  .founders button p {
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    top: 7px;
+  }
+  
+  .stroke {
+    position: relative;
+    bottom: 130px;
+  }
+  
+  #go {
+    text-align: center;
+    position: relative;
+    bottom: 55px;
+    font-size: 20px;
+  }
+  
+  #arrow {
+    position: relative;
+    top: 5px;
+  }
+  
+  .show {
+    display: none;
+    width: 100vw;
+    height: 80vh;
+  }
+  
+  .show p {
+    text-align: center ;
+    font-size: 30px;
+    position: relative;
+    top: 140px;
+  }
+  
+  #linked, #insta , #faceb {
+    display: inline;
+    position: relative;
+    top: 385px;
+  }
+  
+  #linked {
+    position: relative;
+    left: 350px;
+  }
+  
+  #faceb {
+    position: relative;
+    left: 355px;
+  }
+  
+  #insta {
+    position: relative;
+    left: 287px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1280px) {
+
+  *{
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 18px; 
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h2 {
+    color: #4c95fc;
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  #about{
+    color: rgb(37, 31, 31);
+    text-decoration: underline;
+    position: relative;
+    font-size: 16px;
+    line-height: 1.3;
+    left: 30px ;
+    bottom: 5px;
+  }
+  
+  button {
+    
+    font-size: 18px;
+  }
+  
+  .container {
+    display: none;
+    
+  }
+  
+  /* .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  } */
+  
+  /* Rotate first bar */
+  /* .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  } */
+  
+  /* Fade out the second bar */
+  /* .change .bar2 {
+    opacity: 0;
+  } */
+  
+  /* Rotate last bar */
+  /* .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  } */
+  
+  #about, #facebook , #instagram, #linkedin {
+      display: block;
+  }
+
+  #linkedin {
+    width: 23.5px;
+    height: 23.5px;
+    position: relative;
+    left: 1180px;
+    bottom: 70px;
+
+  }
+
+  #facebook {
+    width: 23.5px;
+    height: 23.5px;
+    position: relative;
+    left: 1120px;
+    bottom: 23px;
+  }
+
+  #instagram {
+    width: 23.5px;
+    height: 23.5px;
+    position: relative;
+    left: 1060px;
+    bottom: 46.5px;
+  }
+  
+  #logo {
+      width: 35px;
+      height: 45px;
+      position: relative;
+      top: 30px;
+      left: 40px;
+  }
+
+  .kan {
+    position: relative;
+    bottom: 13px;
+  }
+  
+  .kan h1 , a {
+    color: #4c95fc;
+  }
+  
+  .kan h1 {
+    font-size: 46px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    line-height: 1.4em;
+  }
+  
+  .kan h1 , p {
+      padding: 0 25px;
+      margin-left: 70px;
+      margin-right: 70px;
+  }
+  
+  .bluey {
+    background-color: #4c95fc;
+    color: white;
+    width: 100vw;
+    height: 30vh;
+    padding: 15px 0;
+    overflow-y: hidden;
+    margin: 0;
+  }
+
+  #one {
+    position: relative;
+    right: 390px;
+  }
+
+  #numbOne {
+    margin-bottom: 30px;
+  }
+  
+
+  #two {
+    position: relative;
+    bottom: 105px;
+    left: 230px;
+    
+  }
+
+  #numbTwo {
+    width: 200;
+    position: relative;
+    left: 215px;
+    bottom: 7px;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+  }
+
+  #passTwo {
+    width: 200;
+    position: relative;
+    left: 215px;
+    bottom: 5px;
+    line-height: 1.8em;
+  }
+
+  #three {
+    position: relative;
+    bottom: 315px;
+    left: 330px;
+  }
+
+  #numbThree {
+    position: relative;
+    left: 45px;
+  }
+
+  #passThree {
+    width: 220;
+    position: relative;
+    left: 480px;
+    bottom: 7px;
+    line-height: 1.8em;
+    margin-top: 30px;
+  }
+  
+  #numbOne , #numbTwo , #numbThree {
+    font-size: 40px;
+    font-weight: 500;
+  }
+  
+  #passOne , #passTwo , #passThree {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  
+  .customers {
+    padding: 0 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  #Thembi img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  
+  }
+  
+  #Thembi p{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    margin-right: 75px;
+  }
+  
+  #Paulo {
+    position: relative;
+    bottom: 70px;
+  }
+  
+  #Paulo img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  
+  }
+  
+  #Paulo p{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    margin-right: 75px;
+    
+  }
+  
+  #Janine {
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #Janine img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  
+  }
+  
+  #Janine p{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    margin-right: 75px;
+    
+  }
+  
+  .customers button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    bottom: 165px;
+    left: 400px;
+  
+  }
+  
+  .customers button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .pros {
+    padding: 0 20px;
+    position: relative;
+    bottom: 120px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  #Dylan img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  
+  }
+  
+  #Dylan p{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    margin-right: 75px;
+    
+  }
+  
+  #Mohammed {
+    position: relative;
+    bottom: 40px;
+  }
+  
+  #Mohammed img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  
+  }
+  
+  #mohammed p{
+    position: relative;
+    left: 100px;
+    bottom: 110px;
+    margin-right: 75px;
+    
+  }
+  
+  #Joe {
+    position: relative;
+    bottom: 100px;
+  }
+  
+  #Joe img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  }
+  
+  #Joe p{
+    position: relative;
+    left: 100px;
+    margin-right: 75px;
+    
+  }
+  
+  .pros button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    bottom: 115px;
+    left: 400px;
+  
+  }
+  
+  .pros button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .partners {
+    padding: 0 20px;
+    position: relative;
+    bottom: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  #ygap img {
+    width: 90px;
+    height: 45px;
+  }
+  
+  #ygap p {
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+    margin-right: 70px;
+    
+  }
+  
+  #Merlin img {
+    width: 85px;
+    height: 60px;
+  }
+  
+  #Merlin p {
+    position: relative;
+    left: 40px;
+    bottom: 70px;
+    margin-right: 70px;
+    
+  }
+  
+  .partners button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 190px;
+    height: 60px;
+    position: relative;
+    bottom: 10px;
+    left: 400px;
+  
+  }
+  
+  .partners button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .team {
+    padding: 0 20px;
+    position: relative;
+    bottom: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  
+  #Rosey img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  }
+  
+  #Rosey p {
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+    margin-right: 75px;
+    
+  }
+  
+  #Micheal {
+    position: relative;
+    bottom: 45px;
+  }
+  
+  #Micheal img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  }
+  
+  #Micheal p {
+    position: relative;
+    left: 100px;
+    bottom: 106px;
+    margin-right: 75px;
+    
+  }
+  
+  #Royzanne {
+    position: relative;
+    bottom: 85px;
+  }
+  
+  #Royzanne img {
+    width: 115px;
+    height: 115px;
+    position: relative;
+  }
+  
+  #Royzanne p {
+    position: relative;
+    left: 100px;
+    bottom: 108px;
+    margin-right: 75px;
+    
+  }
+  
+  .team button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 190px;
+    height: 60px;
+    position: relative;
+    bottom: 110px;
+    left: 480px;
+  
+  }
+  
+  .team button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .founders {
+    padding: 0 20px;
+    position: relative;
+    bottom: 140px;
+    
+  
+  }
+
+  .founders h2 {
+    margin-left: 70px;
+  }
+
+  .found {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 40vh 10vh 50vh;
+    
+  }
+
+  #ArjunImg {
+    grid-area: 1 / 1 / span 1 / span 1;
+    position: relative;
+    left: 30px;
+    width: 600px;
+    height: 250px;
+
+    
+  }
+
+  #SayoImg {
+    grid-area: 1 / 2 / span 1 / span 1;
+    position: relative;
+    left: 30px;
+    width: 600px;
+    height: 250px;
+  }
+
+ #findA {
+   grid-area: 2 / 1 / span 1 / span 1;
+   position: relative;
+    left: 0;
+ }
+
+ #findS {
+   grid-area: 2 / 2 / span 1 / span 1;
+   position: relative;
+    left: 0;
+ }
+
+ #ArjunP {
+   grid-area: 3 / 1 / span 1 / span 1;
+   position: relative;
+    left: 0;
+    margin-bottom: -12px;
+    overflow-y: hidden;
+    
+ }
+
+ #SayoP {
+   grid-area: 3 / 2 / span 1 / span 1;
+   position: relative;
+    left: 0;
+ }
+  
+  
+  .founders button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 190px;
+    height: 60px;
+    position: relative;
+    left: 500px;
+    bottom: 130px;
+  }
+  
+  .founders button p {
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    top: 7px;
+    
+  }
+  
+  .stroke {
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #go {
+    text-align: center;
+    position: relative;
+    bottom: 75px;
+    font-size: 22px;
+  }
+  
+  #arrow {
+    position: relative;
+    top: 5px;
+  }
+  
+  .show {
+    display: none;
+    width: 100vw;
+    height: 80vh;
+  }
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1920px) {
+
+  *{
+    overflow-x: hidden;
+    margin: 0;
+  }
+  
+  body {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    font-size: 24px; 
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+    line-height: 1.8;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  h2 {
+    color: #4c95fc;
+    font-size: 28px;
+    font-weight: 500;
+  }
+
+  #about{
+    color: rgb(37, 31, 31);
+    text-decoration: underline;
+    position: relative;
+    font-size: 18px;
+    left: 25px ;
+    top: 15px;
+  }
+  
+  button {
+    
+    font-size: 18px;
+  }
+  
+  .container {
+    display: none;
+  }
+  
+  /* .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 2px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  /* Rotate first bar */
+  /* .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+  }
+   */
+  /* Fade out the second bar */
+  /* .change .bar2 {
+    opacity: 0;
+  }  */
+  
+  /* Rotate last bar */
+  /* .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+  } */
+  
+  #about, #facebook , #instagram, #linkedin {
+      display: block;
+  }
+
+  #linkedin {
+    width: 23.5px;
+    height: 23.5px;
+    position: relative;
+    left: 1800px;
+    top: -35px;
+
+    
+
+  }
+
+  #facebook {
+    width: 23.5px;
+    height: 23.5px;
+    position: relative;
+    left: 1740px;
+    top: 11.5px;
+    
+  }
+
+  #instagram {
+    width: 23.5px;
+    height: 23.5px;
+    position: relative;
+    left: 1680px;
+    top: -11px;
+   
+  }
+  
+  #logo {
+      width: 35px;
+      height: 45px;
+      position: relative;
+      top: 50px;
+      left: 70px;
+  }
+
+  
+
+  .kan {
+    position: relative;
+    top: 0px;
+    margin-left: 180px;
+    margin-right: 180px;
+  }
+  
+  .kan h1 , a {
+    color: #4c95fc;
+  }
+  
+  .kan h1 {
+    font-size: 55px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    
+  }
+
+  .kan p {
+    font-weight: 350;
+    width: 1300px;
+    font-size: 24px;
+  }
+  
+  
+  
+  .kan h1 , p {
+      padding: 0 25px;
+  }
+  
+  .bluey {
+    background-color: #4c95fc;
+    color: white;
+    width: 100vw;
+    height: 20vh;
+    padding: 15px 0;
+    overflow-y: hidden;
+    margin: 0;
+    position: relative;
+    top: -18px;
+  }
+
+  #one {
+    position: relative;
+    right: 650px;
+
+  }
+
+  #numbOne {
+    margin-bottom: 30px;
+  }
+  
+
+  #two {
+    position: relative;
+    bottom: 150px;
+    left: -50px;
+    
+  }
+
+  #numbTwo {
+    width: 200;
+    position: relative;
+    left: 750px;
+    line-height: 1.4em;
+    margin-bottom: 15px;
+  }
+
+  #passTwo {
+    width: 200;
+    position: relative;
+    left: 750px;
+    bottom: 5px;
+    line-height: 1.2em;
+  }
+
+  #three {
+    position: relative;
+    bottom: 378px;
+    left: 600px;
+  }
+
+  #numbThree {
+    position: relative;
+    left: 15px;
+  }
+
+  #passThree {
+    width: 400;
+    position: relative;
+    left: 700px;
+    bottom: 25px;
+    line-height: 1.8em;
+    margin-top: 60px;
+  }
+  
+  #numbOne , #numbTwo , #numbThree {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  
+  #passOne , #passTwo , #passThree {
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  .customers {
+    padding: 0 20px;
+  }
+  
+  #Thembi img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  
+  }
+  
+  #Thembi p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+    margin-left: 40px;
+  }
+  
+  #Paulo {
+    position: relative;
+    bottom: 50px;
+  }
+  
+  #Paulo img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  
+  }
+  
+  #Paulo p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+    margin-left: 40px;
+  }
+  
+  #Janine {
+    position: relative;
+    bottom: 105px;
+  }
+  
+  #Janine img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  
+  }
+  
+  #Janine p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+    margin-left: 40px;
+  }
+  
+  .customers button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    bottom: 100px;
+    left: 850px;
+  
+  }
+  
+  .customers button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .pros {
+    padding: 0 20px;
+    position: relative;
+    bottom: 120px;
+  }
+  
+  #Dylan img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  
+  }
+  
+  #Dylan p{
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    margin-right: 65px;
+    margin-left: 40px;
+  }
+  
+  #Mohammed {
+    position: relative;
+    bottom: 40px;
+  }
+  
+  #Mohammed img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  
+  }
+  
+  #mohammed p{
+    position: relative;
+    left: 90px;
+    bottom: 110px;
+    margin-right: 65px;
+    margin-left: 40px;
+  }
+  
+  #Joe {
+    position: relative;
+    bottom: 80px;
+  }
+
+  #Joe img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  }
+  
+  
+  #Joe p{
+    position: relative;
+    left: 110px;
+    bottom: 135px;
+    margin-right: 80px;
+    margin-left: 40px;
+  }
+  
+  .pros button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 60px;
+    position: relative;
+    bottom: 115px;
+    left: 850px;
+  
+  }
+  
+  .pros button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .partners {
+    padding: 0 20px;
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #ygap img {
+    width: 90px;
+    height: 45px;
+  }
+  
+  #ygap p {
+    position: relative;
+    left: 80px;
+    bottom: 50px;
+    margin-right: 80px;
+  }
+  
+  #Merlin img {
+    width: 85px;
+    height: 60px;
+  }
+  
+  #Merlin p {
+    position: relative;
+    left: 80px;
+    bottom: 70px;
+    margin-right: 80px;
+  }
+  
+  .partners button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 60px;
+    position: relative;
+    bottom: 30px;
+    left: 850px;
+  }
+  
+  .partners button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .team {
+    padding: 0 20px;
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #Rosey img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  }
+  
+  #Rosey p {
+    position: relative;
+    left: 100px;
+    bottom: 105px;
+    margin-right: 65px;
+    margin-left: 10px;
+  }
+  
+  #Micheal {
+    position: relative;
+    bottom: 45px;
+  }
+  
+  #Micheal img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  }
+  
+  #Micheal p {
+    position: relative;
+    left: 100px;
+    bottom: 106px;
+    margin-right: 65px;
+    margin-left: 10px;
+   
+  }
+  
+  #Royzanne {
+    position: relative;
+    bottom: 85px;
+  }
+  
+  #Royzanne img {
+    width: 125px;
+    height: 125px;
+    position: relative;
+  }
+  
+  #Royzanne p {
+    position: relative;
+    left: 100px;
+    bottom: 108px;
+    margin-right: 65px;
+    margin-left: 10px;
+  }
+  
+  .team button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 60px;
+    position: relative;
+    bottom: 100px;
+    left: 850px;
+  
+  }
+  
+  .team button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+  
+  .founders {
+    padding: 0 20px;
+    position: relative;
+    bottom: 140px;
+  
+  }
+  
+  .founders h2 {
+    text-align: center;
+    position: relative;
+    top: 50px;
+  }
+
+  .founders button {
+    background-color: #4c95fc;
+    color: white;
+    border: none;
+    width: 180px;
+    height: 60px;
+    position: relative;
+    bottom: 160px;
+    left: 900px;
+    
+  }
+
+  .founders button p {
+    position: relative;
+    text-align: center;
+    top: 7px;
+  }
+
+  .found {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 40vh 10vh 50vh;
+    
+  }
+
+  #ArjunImg {
+    grid-area: 1 / 1 / span 1 / span 1;
+    position: relative;
+    left: 120px;
+    top: 60px;
+    width: 800px;
+    height: 400px;
+  }
+
+  #SayoImg {
+    grid-area: 1 / 2 / span 1 / span 1;
+    position: relative;
+    left: 100px;
+    top: 65px;
+    width: 800px;
+    height: 400px;
+  }
+
+ #findA {
+   grid-area: 2 / 1 / span 1 / span 1;
+   position: relative;
+   top: 70px;
+    left: 0;
+ }
+
+ #findS {
+   grid-area: 2 / 2 / span 1 / span 1;
+   position: relative;
+   top: 70px;
+    left: 0;
+ }
+
+ #ArjunP {
+   grid-area: 3 / 1 / span 1 / span 1;
+   position: relative;
+   left: 100px;
+   top: 70px;
+   margin-bottom: -12px;
+   overflow-y: hidden;
+   width: 600px;
+    
+ }
+
+ #SayoP {
+   grid-area: 3 / 2 / span 1 / span 1;
+   position: relative;
+    left: 100px;
+    top: 70px;
+    width: 550px;
+ }
+  
+  
+  .stroke {
+    position: relative;
+    bottom: 150px;
+  }
+  
+  #go {
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-size: 20px;
+  }
+  
+  #arrow {
+    position: relative;
+    top: 5px;
+  }
+  
+  .show {
+    display: none;
+  }
+  
+  
+  
+ 
+}
+
+
+
+
+
+
+
+
+
